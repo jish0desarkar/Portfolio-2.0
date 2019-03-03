@@ -2,15 +2,15 @@ function myFunction(x) {
   if (x.matches) { // If media query matches
     document.getElementById("nav").classList.add("nav-bar-sm");
     document.getElementById("dropdown").classList.remove("nav-bar-sm");
-    document.getElementById("footer").classList.add("footer-sm");
+    console.log("adssdf");
   }
   else{
     document.getElementById("nav").classList.remove("nav-bar-sm");
     document.getElementById("dropdown").classList.add("nav-bar-sm");
-    document.getElementById("footer").classList.remove("footer-sm");
+    console.log("gfgfgfg0");
   }
 }
 
-var x = window.matchMedia("(max-width: 700px)")
+var x = window.matchMedia("(max-width: 1000px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
