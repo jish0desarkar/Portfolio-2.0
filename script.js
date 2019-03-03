@@ -2,10 +2,12 @@ function myFunction(x) {
   if (x.matches) { // If media query matches
     document.getElementById("nav").classList.add("nav-bar-sm");
     document.getElementById("dropdown").classList.remove("nav-bar-sm");
+    document.getElementById("footer").classList.add("footer-sm");
   }
   else{
     document.getElementById("nav").classList.remove("nav-bar-sm");
     document.getElementById("dropdown").classList.add("nav-bar-sm");
+    document.getElementById("footer").classList.remove("footer-sm");
   }
 }
 

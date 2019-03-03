@@ -2,14 +2,15 @@ body {
   background-color: #212121;
   font-size: 3rem;
   color: #a4a4a4;
-  text-align: center;s
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-h2 {
-
-
+#heading {
   font-weight: 400px;
-  padding-top: 20%;
+  display: inline-block;
+  margin-top: 15%;
   font-size: 3rem;
   text-shadow: 5px 15px 15px #1b1b1b,
     -3px 10px 12px #1b1b1b;
@@ -17,15 +18,14 @@ h2 {
   display: inline-block;
 }
 
+
+
 .nav-link {
   color: #8e8e8e;
 }
 
 .nav-link:hover {
   color: #616161;
-}
-.nav-bar-sm{
-  font-size: .6rem;
 }
 .nav-bar-sm{
   visibility: hidden;
@@ -46,6 +46,31 @@ h2 {
 }
 
 .footer{
-  padding-top: 15%;
+  margin-top: 17%;
   font-size: 2.5rem;
+}
+.fab:hover{
+  color: #616161;
+}
+.footer-sm{
+  margin-top: 24%;
+}
+.div-class-1{
+  text-align: center;
+  padding-top: 200px;
+  background-color:  #212121;
+}
+
+.skills-heading{
+
+font-family: 'Satisfy', cursive;
+}
+.skills-p{
+  display: inline-block;
+  padding-top: 50px;
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 50%;
+  line-height: 2;
 }
